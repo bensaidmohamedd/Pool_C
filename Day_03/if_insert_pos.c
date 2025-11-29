@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include<stdlib.h>
+// the given function does not return the index
+// it just returns the index if the number given is located at index 0 or the number of the first index was greater than the target n
+// bad work, but we appreciate the effort. by Ali.
 int if_insert_pos(int arr[], int size, int n) {
     int i;
     for (i = 0; i < size; i++) {
